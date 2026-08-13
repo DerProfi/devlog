@@ -1,0 +1,493 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "loading": "Loading...",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "remove": "Remove",
+    "refresh": "Refresh",
+    "search": "Search",
+    "all": "All",
+    "week": "Week",
+    "month": "Month",
+    "year": "Year"
+  },
+  "header": {
+    "logout": "Logout",
+    "language": "Language",
+    "signInGithub": "Sign in with GitHub",
+    "home": "Home",
+    "devlog": "DevLog",
+    "settings": "Settings",
+    "goals": "Goals"
+  },
+  "landing": {
+    "hero": {
+      "badge": "Fight Imposter Syndrome",
+      "title1": "The ",
+      "titleDevlog": "DevLog",
+      "title2": " for motivated ",
+      "titleDev": "Developers",
+      "description": "Document your daily work, track your progress, and recognize your achievements – your personal tool against self-doubt.",
+      "ctaLogin": "Sign in with GitHub",
+      "ctaLearnMore": "Learn more"
+    },
+    "features": {
+      "goals": {
+        "title": "Daily Goals",
+        "description": "Set goals in the morning and track your successes in the evening."
+      },
+      "progress": {
+        "title": "Visualize Progress",
+        "description": "Contribution charts and GitHub-style heatmaps."
+      },
+      "mood": {
+        "title": "Mood Tracking",
+        "description": "iPhone Activity app-like calendar view for motivation."
+      },
+      "streak": {
+        "title": "Streak System",
+        "description": "Keep your streak alive with motivating milestones."
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Daily DevLog. Made with ♥ for developers.",
+      "privacy": "Privacy",
+      "imprint": "Imprint"
+    }
+  },
+  "devlog": {
+    "title": "Daily DevLog",
+    "goals": "Today's ToDos",
+    "addGoal": "Add ToDo",
+    "goalPlaceholder": "Add ToDo",
+    "completed": "completed",
+    "of": "of",
+    "reflection": "Reflection & Learnings",
+    "reflectionPlaceholder": "What did you learn today? What would you do differently tomorrow?",
+    "mood": "How was your mood today?",
+    "moodLabels": {
+      "exhausted": "Exhausted",
+      "bad": "Bad",
+      "neutral": "Neutral",
+      "good": "Good",
+      "super": "Great"
+    },
+    "modules": {
+      "title": "Optional Modules",
+      "codeSnippet": "<> Add Code Snippet",
+      "learning": "🧠 Add Learning Note",
+      "timeTracking": "⏱️ Add Time Tracking"
+    },
+    "saving": "Saving...",
+    "success": "Developer Log saved successfully! 🎉",
+    "errorSave": "Error saving",
+    "errorLoad": "Error loading today's log",
+    "errorNetwork": "Network error while saving",
+    "loginRequired": "Please sign in to save your Dev Log",
+    "loginRequiredNotice": "Please sign in to save your Dev Logs",
+    "loadingLog": "Loading today's Dev Log...",
+    "learningLabel": "Learning #{{number}}",
+    "snippetPlaceholder": "Snippet (Markdown)",
+    "snippetMarkdownInfo": {
+      "title": "Markdown Formatting",
+      "codeBlock": "Code block (js, ts, python, etc.)",
+      "inlineCode": "Inline code",
+      "bold": "Bold",
+      "list": "List",
+      "example": "Example:"
+    },
+    "noEntries": "No entries",
+    "description": "Description",
+    "hours": "Hrs."
+  },
+  "dashboard": {
+    "currentStreak": "Current Streak",
+    "days": "Days",
+    "record": "Record",
+    "nextGoal": "Next Goal",
+    "commitsToday": "Commits Today",
+    "prsWeek": "PRs This Week",
+    "created": "created",
+    "reviewsWeek": "Reviews Week",
+    "commitsWeek": "Commits Week",
+    "contributions": "Contributions",
+    "avgPerDay": "Avg per Day",
+    "vsLastYear": "vs previous period",
+    "lastYear": "previous 365 days",
+    "loginToSeeStats": "Sign in to see stats",
+    "tooltips": {
+      "streak": "Consecutive days with at least one GitHub contribution (Commits, PRs, Issues, Reviews, or new Repos)",
+      "commitsToday": "Number of commits you made today",
+      "prsWeek": "PRs you created/opened this week",
+      "reviewsWeek": "Number of PR reviews you performed this week",
+      "commitsWeek": "Number of commits you made this week",
+      "contributions": "Total of all contributions in GitHub Graph: Commits, PRs opened, Issues opened, PR Reviews, new Repos",
+      "avgPerDay": "Average contributions per day (this year vs. last year)"
+    },
+    "daysText": "{count} Days"
+  },
+  "workweek": {
+    "title": "Current Work Week",
+    "completed": "Completed:",
+    "mood": "Mood",
+    "noEntries": "No entries",
+    "reflection": "Reflection",
+    "learnings": "Learnings",
+    "goals": "Goals",
+    "timeTracking": "Time Tracking",
+    "loadingActivity": "Loading GitHub activity..."
+  },
+  "github": {
+    "yearOverview": "Last 365 Days",
+    "less": "Less",
+    "more": "More",
+    "activityStats": "GitHub Activity",
+    "loading": "Loading...",
+    "refresh": "Refresh",
+    "signInMessage": "Sign in with GitHub to view your activity stats",
+    "contributionInfo": "Contribution calendar, streaks, and more",
+    "loadingActivity": "Loading activity stats...",
+    "devlog": "DevLog",
+    "contributionsHistory": "Contributions History",
+    "noContributions": "No contributions found",
+    "calendarWeek": "W",
+    "days": {
+      "sunday": "Sunday",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday"
+    },
+    "contributionLevels": {
+      "none": "No contributions",
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "veryHigh": "Very High"
+    }
+  },
+  "time": {
+    "hours": "Hrs.",
+    "description": "Description"
+  },
+  "form": {
+    "description": "Description"
+  },
+  "mood": {
+    "title": "Mood",
+    "weekDays": "Mon–Sun"
+  },
+  "template": {
+    "goalsToday": "Goals for today",
+    "achieved": "Achieved / Done",
+    "moodEnergy": "Mood / Energy Level",
+    "insights": "Insights / Learnings",
+    "problems": "Problems / Bugs",
+    "codeSnippets": "Code Snippets",
+    "meetings": "Meetings / Calls",
+    "resources": "Resources / Links",
+    "nextSteps": "Next Steps",
+    "challenges": "Challenges",
+    "accomplishments": "Accomplishments",
+    "timeTracking": "Time Tracking",
+    "toolsUsed": "Tools used",
+    "reflection": "Reflection"
+  },
+  "history": {
+    "title": "Search DevLog",
+    "filterAll": "All",
+    "filterWeek": "Last 7 days",
+    "filterMonth": "Last 30 days",
+    "searchPlaceholder": "Feature",
+    "resultsFound": "{count} results found",
+    "signInMessage": "Please sign in to see your Dev Log History",
+    "loading": "Loading Dev Logs...",
+    "errorLoading": "Error loading Dev Logs",
+    "errorNetwork": "Network error loading Dev Logs",
+    "goalsCompleted": "{count} goal{plural} completed",
+    "noLogsFound": "No Dev Logs found",
+    "createFirst": "Create your first Dev Log!",
+    "mood": "Mood",
+    "reflection": "Reflection",
+    "learnings": "Learnings",
+    "goals": "Goals"
+  },
+  "feedback": {
+    "title": "Send Feedback",
+    "messageLabel": "Your Feedback",
+    "messagePlaceholder": "Tell us what you think or report an issue...",
+    "anonymousLabel": "Submit anonymously",
+    "anonymousNotice": "Your feedback will be submitted anonymously.",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "success": "Thank you for your feedback!",
+    "errorEmpty": "Please enter your feedback",
+    "errorTooLong": "Feedback must be 2000 characters or less",
+    "errorSubmit": "Failed to submit feedback",
+    "errorNetwork": "Network error. Please try again."
+  },
+  "legal": {
+    "backToHome": "Back to Home",
+    "imprint": {
+      "title": "Imprint",
+      "contactTitle": "Contact",
+      "responsibleTitle": "Responsible for content",
+      "disclaimerTitle": "Disclaimer",
+      "disclaimerText": "The contents of this website have been created with the utmost care. However, no guarantee can be given for the accuracy, completeness, and timeliness of the content."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated",
+      "responsible": {
+        "title": "Data Controller",
+        "text": "Responsible for data processing on this website:"
+      },
+      "dataCollected": {
+        "title": "Data Collected",
+        "githubAuth": {
+          "title": "GitHub Authentication",
+          "text": "When signing in via GitHub OAuth, the following data is retrieved and stored from GitHub:",
+          "username": "Username (login)",
+          "email": "Email address",
+          "avatar": "Profile picture URL",
+          "displayName": "Display name",
+          "bio": "Biography",
+          "location": "Location",
+          "company": "Company",
+          "blog": "Blog URL",
+          "publicRepos": "Number of public repositories",
+          "publicGists": "Number of public gists",
+          "followers": "Number of followers/following",
+          "tokenPurpose": "for API access"
+        },
+        "activity": {
+          "title": "GitHub Activity Data",
+          "text": "To display your coding activity, the following data is retrieved from the GitHub API:",
+          "commits": "Number of commits",
+          "issues": "Number of issues",
+          "prs": "Number of pull requests",
+          "reviews": "Number of reviews",
+          "calendar": "Contribution calendar (activity per day for the last 365 days)",
+          "events": "Public events",
+          "note": "This data is not permanently stored but is fetched fresh from GitHub on each request."
+        },
+        "devlogs": {
+          "title": "Devlog Entries",
+          "text": "Devlog entries you create are stored in our database."
+        }
+      },
+      "cookies": {
+        "title": "Cookies",
+        "text": "This website uses the following cookies:",
+        "session": "Contains an encrypted token for authentication. Valid for 30 days. Required for using the app.",
+        "csrf": "Temporary security token during the login process. Deleted after successful authentication."
+      },
+      "hosting": {
+        "title": "Hosting and Data Processing",
+        "hosting": {
+          "title": "Hosting",
+          "text": "This website is hosted by Vercel (Vercel Inc., USA)."
+        },
+        "database": {
+          "title": "Database",
+          "text": "User data is stored with Supabase (Supabase Inc., USA). Supabase is certified under the EU-US Data Privacy Framework."
+        },
+        "github": {
+          "title": "GitHub API",
+          "text": "We use the GitHub API (GitHub Inc., USA) for authentication and to retrieve activity data. GitHub's privacy policy applies:"
+        }
+      },
+      "legalBasis": {
+        "title": "Legal Basis",
+        "text": "Processing is based on:",
+        "consent": "Art. 6(1)(a) GDPR (Consent) – through signing in via GitHub",
+        "contract": "Art. 6(1)(b) GDPR (Contract Performance) – to provide the service"
+      },
+      "rights": {
+        "title": "Your Rights",
+        "text": "You have the following rights:",
+        "access": "Access to your stored data (Art. 15 GDPR)",
+        "rectification": "Rectification of inaccurate data (Art. 16 GDPR)",
+        "erasure": "Erasure of your data (Art. 17 GDPR)",
+        "restriction": "Restriction of processing (Art. 18 GDPR)",
+        "portability": "Data portability (Art. 20 GDPR)",
+        "objection": "Object to processing (Art. 21 GDPR)",
+        "withdrawal": "Withdraw your consent at any time",
+        "contact": "To exercise your rights, contact"
+      },
+      "deletion": {
+        "title": "Data Deletion",
+        "text": "You can delete your account and all associated data at any time. The GitHub Access Token will also be deleted. You can additionally revoke access in your GitHub settings under \"Applications\" > \"Authorized OAuth Apps\"."
+      },
+      "changes": {
+        "title": "Changes",
+        "text": "This privacy policy may be updated as needed. The current version is available on this page."
+      }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "loading": "Loading...",
+    "accountInfo": "Account Information",
+    "username": "Username",
+    "email": "Email",
+    "dataPrivacy": "Data Privacy & GDPR",
+    "dataPrivacyDescription": "Manage your personal data in accordance with the General Data Protection Regulation (GDPR).",
+    "exportData": "Export Data",
+    "exportDataDescription": "Download a copy of all your stored data (Art. 20 GDPR - Right to data portability).",
+    "exportButton": "Download Data",
+    "exporting": "Exporting...",
+    "deleteAccount": "Delete Account",
+    "deleteAccountDescription": "Permanently delete your account and all associated data (Art. 17 GDPR - Right to erasure).",
+    "deleteAccountButton": "Delete Account",
+    "backToDevlog": "← Back to DevLog",
+    "deleteModalTitle": "Permanently delete account?",
+    "deleteModalDescription": "This action cannot be undone. All your data will be permanently deleted.",
+    "deleteModalWhatWillBeDeleted": "The following data will be deleted:",
+    "deleteModalItem1": "Your user profile and all account data",
+    "deleteModalItem2": "All your Dev Logs and entries",
+    "deleteModalItem3": "GitHub activity cache",
+    "deleteModalItem4": "All usage statistics",
+    "deleteModalConfirmLabel": "Type \"{username}\" to confirm:",
+    "deleteModalCancel": "Cancel",
+    "deleteModalConfirm": "Delete permanently",
+    "deleteModalDeleting": "Deleting...",
+    "deleteConfirmError": "Please enter your username correctly",
+    "deleteError": "Failed to delete account"
+  },
+  "cookies": {
+    "message": "This website uses essential cookies for authentication.",
+    "learnMore": "Learn more",
+    "accept": "Got it"
+  },
+  "deepWork": {
+    "title": "Deep Work Timer",
+    "status": {
+      "idle": "Ready",
+      "work": "Focus Time",
+      "shortBreak": "Short Break",
+      "longBreak": "Long Break",
+      "paused": "Paused"
+    },
+    "phase": {
+      "work": "Focus",
+      "shortBreak": "Short Break",
+      "longBreak": "Long Break"
+    },
+    "controls": {
+      "start": "Start",
+      "pause": "Pause",
+      "resume": "Resume",
+      "stop": "Stop",
+      "skip": "Skip",
+      "reset": "Reset"
+    },
+    "stats": {
+      "today": "Today",
+      "week": "This Week",
+      "pomodoros": "Pomodoros"
+    },
+    "settings": {
+      "title": "Timer Settings",
+      "workDuration": "Focus Duration (min)",
+      "shortBreak": "Short Break (min)",
+      "longBreak": "Long Break (min)",
+      "cycles": "Cycles before Long Break",
+      "autoStartBreaks": "Auto-start breaks",
+      "autoStartWork": "Auto-start focus after break",
+      "sound": "Sound notifications",
+      "notifications": "Browser notifications",
+      "resetDefaults": "Reset to Defaults",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "task": {
+      "selectTask": "Link to task (optional)",
+      "noTask": "No task",
+      "noTasksAvailable": "No tasks available"
+    },
+    "notifications": {
+      "workComplete": "Pomodoro Complete!",
+      "breakComplete": "Break Over!",
+      "timeForBreak": "Time for a break",
+      "readyToFocus": "Ready to focus again?"
+    },
+    "progress": {
+      "cyclesCompleted": "{current}/{total}",
+      "setsCompleted": "{count} set(s) completed"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "backToHome": "← Back to Home",
+    "cookies": {
+      "title": "Cookies",
+      "description": "This website uses only essential cookies required for the application to function:",
+      "session": "Authentication token (valid for 30 days)",
+      "csrf": "Temporary security token during login (deleted after authentication)"
+    },
+    "dataCollection": {
+      "title": "Data We Collect",
+      "description": "When you sign in with GitHub, we store your GitHub profile information (username, email, avatar) and any Dev Logs you create. We also temporarily cache your GitHub activity data to display your contribution statistics."
+    },
+    "rights": {
+      "title": "Your Rights (GDPR)",
+      "description": "You can export all your data or delete your account at any time from the Settings page. Upon account deletion, all your personal data will be permanently removed from our systems."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "For privacy-related questions, please contact us through the feedback form or create an issue on our GitHub repository."
+    }
+  },
+  "goals": {
+    "title": "Goals",
+    "newGoal": "New Goal",
+    "editGoal": "Edit Goal",
+    "name": "Name",
+    "namePlaceholder": "e.g., Learn TypeScript",
+    "description": "Description",
+    "descriptionPlaceholder": "Optional description for your goal...",
+    "periodType": "Period",
+    "periodWeekly": "Week",
+    "periodMonthly": "Month",
+    "periodQuarterly": "Quarter",
+    "startDate": "Start",
+    "endDate": "End",
+    "color": "Color",
+    "status": "Status",
+    "statusActive": "Active",
+    "statusCompleted": "Completed",
+    "statusArchived": "Archived",
+    "tasks": "Tasks",
+    "edit": "Edit",
+    "delete": "Delete",
+    "saving": "Saving...",
+    "loading": "Loading goals...",
+    "noGoals": "No goals yet",
+    "createFirst": "Create your first goal!",
+    "confirmDelete": "Are you sure you want to delete this goal?",
+    "errorLoad": "Error loading goals",
+    "errorSave": "Error saving goal",
+    "errorDelete": "Error deleting goal",
+    "errorNameRequired": "Name is required",
+    "errorDatesRequired": "Start and end dates are required",
+    "errorInvalidDateRange": "End date must be after start date",
+    "loginRequired": "Please sign in to manage your goals",
+    "goal": "Goal",
+    "addGoal": "Add Goal",
+    "removeGoal": "Remove Goal",
+    "noActiveGoals": "No active goals",
+    "criteria": "Success Criteria",
+    "addCriterion": "Add Criterion",
+    "criterionTitle": "What do you want to achieve?",
+    "targetValue": "Target",
+    "currentValue": "Current",
+    "errorCriterionTitleRequired": "Each criterion requires a title",
+    "errorCriterionTargetInvalid": "Target value must be at least 1"
+  }
+}

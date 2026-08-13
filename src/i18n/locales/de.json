@@ -1,0 +1,493 @@
+{
+  "common": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "loading": "Lädt...",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "add": "Hinzufügen",
+    "remove": "Entfernen",
+    "refresh": "Refresh",
+    "search": "Suchen",
+    "all": "Alle",
+    "week": "Woche",
+    "month": "Monat",
+    "year": "Jahr"
+  },
+  "header": {
+    "logout": "Logout",
+    "language": "Sprache",
+    "signInGithub": "Mit GitHub anmelden",
+    "home": "Home",
+    "devlog": "DevLog",
+    "settings": "Einstellungen",
+    "goals": "Ziele"
+  },
+  "landing": {
+    "hero": {
+      "badge": "🔥 Bekämpfe das Impostor‑Syndrom",
+      "title1": "Das ",
+      "titleDevlog": "DevLog",
+      "title2": " für motivierte ",
+      "titleDev": "Developer",
+      "description": "Dokumentiere deine tägliche Arbeit, tracke deinen Fortschritt und erkenne deine Leistungen – dein persönliches Tool für deine Weiterentwicklung.",
+      "ctaLogin": "Mit GitHub anmelden",
+      "ctaLearnMore": "Mehr erfahren"
+    },
+    "features": {
+      "goals": {
+        "title": "Tägliche Ziele",
+        "description": "Setze morgens Ziele und tracke abends deine Erfolge."
+      },
+      "progress": {
+        "title": "Fortschritt visualisieren",
+        "description": "Contributions-Charts und GitHub‑Style Heatmaps."
+      },
+      "mood": {
+        "title": "Stimmungs‑Tracking",
+        "description": "iPhone‑Sport‑App‑ähnliche Kalenderansicht für Motivation."
+      },
+      "streak": {
+        "title": "Streak System",
+        "description": "Halte deinen Streak am Leben mit motivierenden Milestones."
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Daily DevLog. Made with ♥ for developers.",
+      "privacy": "Datenschutz",
+      "imprint": "Impressum"
+    }
+  },
+  "devlog": {
+    "title": "Daily DevLog",
+    "goals": "ToDo von heute",
+    "addGoal": "ToDo hinzufügen",
+    "goalPlaceholder": "ToDo hinzufügen",
+    "completed": "erledigt",
+    "of": "von",
+    "reflection": "Reflexion & Learnings",
+    "reflectionPlaceholder": "Was hast du heute gelernt? Was würdest du morgen anders machen?",
+    "mood": "Wie war deine Stimmung heute?",
+    "moodLabels": {
+      "exhausted": "Erschöpft",
+      "bad": "Schlecht",
+      "neutral": "Neutral",
+      "good": "Gut",
+      "super": "Super"
+    },
+    "modules": {
+      "title": "Optionale Module",
+      "codeSnippet": "<> Code Snippet hinzufügen",
+      "learning": "🧠 Lernnotiz hinzufügen",
+      "timeTracking": "⏱️ Zeiterfassung hinzufügen"
+    },
+    "saving": "Speichert...",
+    "success": "Developer Log erfolgreich gespeichert! 🎉",
+    "errorSave": "Fehler beim Speichern",
+    "errorLoad": "Fehler beim Laden des heutigen Logs",
+    "errorNetwork": "Netzwerkfehler beim Speichern",
+    "loginRequired": "Bitte melde dich an, um dein Dev Log zu speichern",
+    "loginRequiredNotice": "Bitte melde dich an, um deine Dev Logs zu speichern",
+    "loadingLog": "Lade heutiges Dev Log...",
+    "learningLabel": "Learning #{{number}}",
+    "snippetPlaceholder": "Snippet (Markdown)",
+    "snippetMarkdownInfo": {
+      "title": "Markdown-Formatierung",
+      "codeBlock": "Codeblock (js, ts, python, etc.)",
+      "inlineCode": "Inline-Code",
+      "bold": "Fett",
+      "list": "Liste",
+      "example": "Beispiel:"
+    },
+    "noEntries": "Keine Einträge",
+    "description": "Beschreibung",
+    "hours": "Std."
+  },
+  "dashboard": {
+    "currentStreak": "Aktueller Streak",
+    "days": "Tage",
+    "record": "Rekord",
+    "nextGoal": "Nächstes Ziel",
+    "commitsToday": "Commits Heute",
+    "prsWeek": "PRs Diese Woche",
+    "created": "erstellt",
+    "reviewsWeek": "Reviews Woche",
+    "commitsWeek": "Commits Woche",
+    "contributions": "Contributions",
+    "avgPerDay": "Ø pro Tag",
+    "vsLastYear": "vs vorherige Periode",
+    "lastYear": "vorherige 365 Tage",
+    "loginToSeeStats": "Melde dich an, um Stats zu sehen",
+    "tooltips": {
+      "streak": "Aufeinanderfolgende Tage mit mindestens einer GitHub Contribution (Commits, PRs, Issues, Reviews oder neue Repos)",
+      "commitsToday": "Anzahl der Commits, die du heute gemacht hast",
+      "prsWeek": "PRs die du diese Woche erstellt/geöffnet hast",
+      "reviewsWeek": "Anzahl der PR Reviews, die du diese Woche durchgeführt hast",
+      "commitsWeek": "Anzahl der Commits, die du diese Woche gemacht hast",
+      "contributions": "Gesamtzahl aller Contributions im GitHub Graph: Commits, PRs geöffnet, Issues geöffnet, PR Reviews, neue Repos",
+      "avgPerDay": "Durchschnittliche Contributions pro Tag (letzte 365 Tage vs. vorherige 365 Tage)"
+    },
+    "daysText": "{count} Tagen"
+  },
+  "workweek": {
+    "title": "Aktuelle Arbeitswoche",
+    "completed": "Erledigt:",
+    "mood": "Stimmung",
+    "noEntries": "Keine Einträge",
+    "reflection": "Reflexion",
+    "learnings": "Learnings",
+    "goals": "Ziele",
+    "timeTracking": "Zeiterfassung",
+    "loadingActivity": "Lade GitHub Activity..."
+  },
+  "github": {
+    "yearOverview": "Letzte 365 Tage",
+    "less": "Weniger",
+    "more": "Mehr",
+    "activityStats": "GitHub Aktivität",
+    "loading": "Lädt...",
+    "refresh": "Refresh",
+    "signInMessage": "Mit GitHub anmelden, um deine Aktivitätsstatistiken zu sehen",
+    "contributionInfo": "Contribution-Kalender, Streaks und mehr",
+    "loadingActivity": "Lade Aktivitätsstatistiken...",
+    "devlog": "DevLog",
+    "contributionsHistory": "Contributions Verlauf",
+    "noContributions": "Keine Contributions gefunden",
+    "calendarWeek": "KW",
+    "days": {
+      "sunday": "Sonntag",
+      "monday": "Montag",
+      "tuesday": "Dienstag",
+      "wednesday": "Mittwoch",
+      "thursday": "Donnerstag",
+      "friday": "Freitag",
+      "saturday": "Samstag"
+    },
+    "contributionLevels": {
+      "none": "Keine Contributions",
+      "low": "Niedrig",
+      "medium": "Mittel",
+      "high": "Hoch",
+      "veryHigh": "Sehr hoch"
+    }
+  },
+  "time": {
+    "hours": "Std.",
+    "description": "Beschreibung"
+  },
+  "form": {
+    "description": "Beschreibung"
+  },
+  "mood": {
+    "title": "Stimmung",
+    "weekDays": "Mo–So"
+  },
+  "template": {
+    "goalsToday": "Ziele für heute",
+    "achieved": "Erreicht / Getan",
+    "moodEnergy": "Mood / Energielevel",
+    "insights": "Erkenntnisse / Learnings",
+    "problems": "Probleme / Bugs",
+    "codeSnippets": "Code Snippets",
+    "meetings": "Meetings / Calls",
+    "resources": "Ressourcen / Links",
+    "nextSteps": "Nächste Schritte",
+    "challenges": "Herausforderungen",
+    "accomplishments": "Erfolge",
+    "timeTracking": "Zeiterfassung",
+    "toolsUsed": "Tools verwendet",
+    "reflection": "Reflexion"
+  },
+  "history": {
+    "title": "DevLog durchsuchen",
+    "filterAll": "Alle",
+    "filterWeek": "Letzte 7 Tage",
+    "filterMonth": "Letzte 30 Tage",
+    "searchPlaceholder": "Feature",
+    "resultsFound": "{count} Ergebnisse gefunden",
+    "signInMessage": "Bitte melde dich an, um deine Dev Log History zu sehen",
+    "loading": "Lade Dev Logs...",
+    "errorLoading": "Fehler beim Laden der Dev Logs",
+    "errorNetwork": "Netzwerkfehler beim Laden der Dev Logs",
+    "goalsCompleted": "{count} Ziel{plural} erledigt",
+    "noLogsFound": "Keine Dev Logs gefunden",
+    "createFirst": "Erstelle deinen ersten Dev Log!",
+    "mood": "Stimmung",
+    "reflection": "Reflexion",
+    "learnings": "Learnings",
+    "goals": "Ziele"
+  },
+  "feedback": {
+    "title": "Feedback senden",
+    "messageLabel": "Dein Feedback",
+    "messagePlaceholder": "Sag uns, was du denkst oder melde ein Problem...",
+    "anonymousLabel": "Anonym absenden",
+    "anonymousNotice": "Dein Feedback wird anonym gesendet.",
+    "submit": "Absenden",
+    "submitting": "Wird gesendet...",
+    "success": "Vielen Dank für dein Feedback!",
+    "errorEmpty": "Bitte gib dein Feedback ein",
+    "errorTooLong": "Feedback darf maximal 2000 Zeichen lang sein",
+    "errorSubmit": "Fehler beim Absenden des Feedbacks",
+    "errorNetwork": "Netzwerkfehler. Bitte versuche es erneut."
+  },
+  "legal": {
+    "backToHome": "Zurück zur Startseite",
+    "imprint": {
+      "title": "Impressum",
+      "contactTitle": "Kontakt",
+      "responsibleTitle": "Verantwortlich für den Inhalt gemäß § 55 Abs. 2 RStV",
+      "disclaimerTitle": "Haftungsausschluss",
+      "disclaimerText": "Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden."
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "lastUpdated": "Stand",
+      "responsible": {
+        "title": "Verantwortlicher",
+        "text": "Verantwortlich für die Datenverarbeitung auf dieser Website ist:"
+      },
+      "dataCollected": {
+        "title": "Erhobene Daten",
+        "githubAuth": {
+          "title": "GitHub-Authentifizierung",
+          "text": "Bei der Anmeldung über GitHub OAuth werden folgende Daten von GitHub abgerufen und gespeichert:",
+          "username": "Benutzername (login)",
+          "email": "E-Mail-Adresse",
+          "avatar": "Profilbild-URL",
+          "displayName": "Anzeigename",
+          "bio": "Biografie",
+          "location": "Standort",
+          "company": "Firma",
+          "blog": "Blog-URL",
+          "publicRepos": "Anzahl öffentlicher Repositories",
+          "publicGists": "Anzahl öffentlicher Gists",
+          "followers": "Anzahl Follower/Following",
+          "tokenPurpose": "für API-Zugriffe"
+        },
+        "activity": {
+          "title": "GitHub-Aktivitätsdaten",
+          "text": "Zur Darstellung deiner Coding-Aktivität werden folgende Daten von der GitHub API abgerufen:",
+          "commits": "Anzahl der Commits",
+          "issues": "Anzahl der Issues",
+          "prs": "Anzahl der Pull Requests",
+          "reviews": "Anzahl der Reviews",
+          "calendar": "Contribution-Kalender (Aktivität pro Tag der letzten 365 Tage)",
+          "events": "Öffentliche Events",
+          "note": "Diese Daten werden nicht dauerhaft gespeichert, sondern bei jedem Aufruf neu von GitHub abgerufen."
+        },
+        "devlogs": {
+          "title": "Devlog-Einträge",
+          "text": "Von dir erstellte Devlog-Einträge werden in unserer Datenbank gespeichert."
+        }
+      },
+      "cookies": {
+        "title": "Cookies",
+        "text": "Diese Website verwendet folgende Cookies:",
+        "session": "Enthält einen verschlüsselten Token zur Authentifizierung. Gültigkeit: 30 Tage. Notwendig für die Nutzung der App.",
+        "csrf": "Temporärer Sicherheits-Token während des Login-Vorgangs. Wird nach erfolgreicher Anmeldung gelöscht."
+      },
+      "hosting": {
+        "title": "Hosting und Datenverarbeitung",
+        "hosting": {
+          "title": "Hosting",
+          "text": "Diese Website wird bei Vercel (Vercel Inc., USA) gehostet."
+        },
+        "database": {
+          "title": "Datenbank",
+          "text": "Die Nutzerdaten werden bei Supabase (Supabase Inc., USA) gespeichert. Supabase ist unter dem EU-US Data Privacy Framework zertifiziert."
+        },
+        "github": {
+          "title": "GitHub API",
+          "text": "Wir nutzen die GitHub API (GitHub Inc., USA) zur Authentifizierung und zum Abruf von Aktivitätsdaten. Es gelten die Datenschutzbestimmungen von GitHub:"
+        }
+      },
+      "legalBasis": {
+        "title": "Rechtsgrundlage",
+        "text": "Die Verarbeitung erfolgt auf Grundlage von:",
+        "consent": "Art. 6 Abs. 1 lit. a DSGVO (Einwilligung) – durch die Anmeldung über GitHub",
+        "contract": "Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung) – zur Bereitstellung des Dienstes"
+      },
+      "rights": {
+        "title": "Deine Rechte",
+        "text": "Du hast folgende Rechte:",
+        "access": "Auskunft über deine gespeicherten Daten (Art. 15 DSGVO)",
+        "rectification": "Berichtigung unrichtiger Daten (Art. 16 DSGVO)",
+        "erasure": "Löschung deiner Daten (Art. 17 DSGVO)",
+        "restriction": "Einschränkung der Verarbeitung (Art. 18 DSGVO)",
+        "portability": "Datenübertragbarkeit (Art. 20 DSGVO)",
+        "objection": "Widerspruch gegen die Verarbeitung (Art. 21 DSGVO)",
+        "withdrawal": "Widerruf deiner Einwilligung jederzeit",
+        "contact": "Zur Ausübung deiner Rechte kontaktiere"
+      },
+      "deletion": {
+        "title": "Datenlöschung",
+        "text": "Du kannst dein Konto und alle damit verbundenen Daten jederzeit löschen. Der GitHub Access Token wird dabei ebenfalls gelöscht. Du kannst den Zugriff zusätzlich in deinen GitHub-Einstellungen unter \"Applications\" > \"Authorized OAuth Apps\" widerrufen."
+      },
+      "changes": {
+        "title": "Änderungen",
+        "text": "Diese Datenschutzerklärung kann bei Bedarf aktualisiert werden. Die aktuelle Version ist auf dieser Seite einsehbar."
+      }
+    }
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "loading": "Lädt...",
+    "accountInfo": "Kontoinformationen",
+    "username": "Benutzername",
+    "email": "E-Mail",
+    "dataPrivacy": "Datenschutz & DSGVO",
+    "dataPrivacyDescription": "Verwalte deine persönlichen Daten gemäß der Datenschutz-Grundverordnung (DSGVO).",
+    "exportData": "Daten exportieren",
+    "exportDataDescription": "Lade eine Kopie aller deiner gespeicherten Daten herunter (Art. 20 DSGVO - Recht auf Datenübertragbarkeit).",
+    "exportButton": "Daten herunterladen",
+    "exporting": "Exportiere...",
+    "deleteAccount": "Konto löschen",
+    "deleteAccountDescription": "Lösche dein Konto und alle damit verbundenen Daten unwiderruflich (Art. 17 DSGVO - Recht auf Löschung).",
+    "deleteAccountButton": "Konto löschen",
+    "backToDevlog": "← Zurück zum DevLog",
+    "deleteModalTitle": "Konto endgültig löschen?",
+    "deleteModalDescription": "Diese Aktion kann nicht rückgängig gemacht werden. Alle deine Daten werden permanent gelöscht.",
+    "deleteModalWhatWillBeDeleted": "Folgende Daten werden gelöscht:",
+    "deleteModalItem1": "Dein Benutzerprofil und alle Kontodaten",
+    "deleteModalItem2": "Alle deine Dev Logs und Einträge",
+    "deleteModalItem3": "GitHub-Aktivitäts-Cache",
+    "deleteModalItem4": "Alle Nutzungsstatistiken",
+    "deleteModalConfirmLabel": "Gib \"{username}\" ein, um zu bestätigen:",
+    "deleteModalCancel": "Abbrechen",
+    "deleteModalConfirm": "Endgültig löschen",
+    "deleteModalDeleting": "Lösche...",
+    "deleteConfirmError": "Bitte gib deinen Benutzernamen korrekt ein",
+    "deleteError": "Fehler beim Löschen des Kontos"
+  },
+  "cookies": {
+    "message": "Diese Website verwendet notwendige Cookies für die Anmeldung.",
+    "learnMore": "Mehr erfahren",
+    "accept": "Verstanden"
+  },
+  "deepWork": {
+    "title": "Deep Work Timer",
+    "status": {
+      "idle": "Bereit",
+      "work": "Fokus-Zeit",
+      "shortBreak": "Kurze Pause",
+      "longBreak": "Lange Pause",
+      "paused": "Pausiert"
+    },
+    "phase": {
+      "work": "Fokus",
+      "shortBreak": "Kurze Pause",
+      "longBreak": "Lange Pause"
+    },
+    "controls": {
+      "start": "Starten",
+      "pause": "Pausieren",
+      "resume": "Fortsetzen",
+      "stop": "Beenden",
+      "skip": "Überspringen",
+      "reset": "Zurücksetzen"
+    },
+    "stats": {
+      "today": "Heute",
+      "week": "Diese Woche",
+      "pomodoros": "Pomodoros"
+    },
+    "settings": {
+      "title": "Timer-Einstellungen",
+      "workDuration": "Fokus-Dauer (Min)",
+      "shortBreak": "Kurze Pause (Min)",
+      "longBreak": "Lange Pause (Min)",
+      "cycles": "Zyklen bis lange Pause",
+      "autoStartBreaks": "Pausen automatisch starten",
+      "autoStartWork": "Fokus nach Pause automatisch starten",
+      "sound": "Sound aktivieren",
+      "notifications": "Browser-Benachrichtigungen",
+      "resetDefaults": "Auf Standard zurücksetzen",
+      "save": "Speichern",
+      "cancel": "Abbrechen"
+    },
+    "task": {
+      "selectTask": "Mit Aufgabe verknüpfen (optional)",
+      "noTask": "Ohne Aufgabe",
+      "noTasksAvailable": "Keine Aufgaben verfügbar"
+    },
+    "notifications": {
+      "workComplete": "Pomodoro abgeschlossen!",
+      "breakComplete": "Pause beendet!",
+      "timeForBreak": "Zeit für eine Pause",
+      "readyToFocus": "Bereit für den nächsten Fokus?"
+    },
+    "progress": {
+      "cyclesCompleted": "{current}/{total}",
+      "setsCompleted": "{count} Set(s) abgeschlossen"
+    }
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "backToHome": "← Zurück zur Startseite",
+    "cookies": {
+      "title": "Cookies",
+      "description": "Diese Website verwendet nur notwendige Cookies, die für die Funktion der Anwendung erforderlich sind:",
+      "session": "Authentifizierungs-Token (gültig für 30 Tage)",
+      "csrf": "Temporärer Sicherheits-Token beim Login (wird nach Anmeldung gelöscht)"
+    },
+    "dataCollection": {
+      "title": "Erhobene Daten",
+      "description": "Bei der Anmeldung mit GitHub speichern wir deine GitHub-Profilinformationen (Benutzername, E-Mail, Avatar) sowie alle von dir erstellten Dev Logs. Wir cachen auch temporär deine GitHub-Aktivitätsdaten, um deine Beitragsstatistiken anzuzeigen."
+    },
+    "rights": {
+      "title": "Deine Rechte (DSGVO)",
+      "description": "Du kannst jederzeit alle deine Daten exportieren oder dein Konto in den Einstellungen löschen. Bei der Kontolöschung werden alle deine personenbezogenen Daten dauerhaft aus unseren Systemen entfernt."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "description": "Bei Fragen zum Datenschutz kontaktiere uns bitte über das Feedback-Formular oder erstelle ein Issue in unserem GitHub-Repository."
+    }
+  },
+  "goals": {
+    "title": "Ziele",
+    "newGoal": "Neues Ziel",
+    "editGoal": "Ziel bearbeiten",
+    "name": "Name",
+    "namePlaceholder": "z.B. TypeScript lernen",
+    "description": "Beschreibung",
+    "descriptionPlaceholder": "Optionale Beschreibung für dein Ziel...",
+    "periodType": "Zeitraum",
+    "periodWeekly": "Woche",
+    "periodMonthly": "Monat",
+    "periodQuarterly": "Quartal",
+    "startDate": "Start",
+    "endDate": "Ende",
+    "color": "Farbe",
+    "status": "Status",
+    "statusActive": "Aktiv",
+    "statusCompleted": "Abgeschlossen",
+    "statusArchived": "Archiviert",
+    "tasks": "Aufgaben",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "saving": "Speichert...",
+    "loading": "Lade Ziele...",
+    "noGoals": "Noch keine Ziele",
+    "createFirst": "Erstelle dein erstes Ziel!",
+    "confirmDelete": "Möchtest du dieses Ziel wirklich löschen?",
+    "errorLoad": "Fehler beim Laden der Ziele",
+    "errorSave": "Fehler beim Speichern des Ziels",
+    "errorDelete": "Fehler beim Löschen des Ziels",
+    "errorNameRequired": "Name ist erforderlich",
+    "errorDatesRequired": "Start- und Enddatum sind erforderlich",
+    "errorInvalidDateRange": "Das Enddatum muss nach dem Startdatum liegen",
+    "loginRequired": "Bitte melde dich an, um deine Ziele zu verwalten",
+    "goal": "Ziel",
+    "addGoal": "Ziel hinzufügen",
+    "removeGoal": "Ziel entfernen",
+    "noActiveGoals": "Keine aktiven Ziele",
+    "criteria": "Erfolgskriterien",
+    "addCriterion": "Kriterium hinzufügen",
+    "criterionTitle": "Was willst du erreichen?",
+    "targetValue": "Ziel",
+    "currentValue": "Aktuell",
+    "errorCriterionTitleRequired": "Jedes Kriterium benötigt einen Titel",
+    "errorCriterionTargetInvalid": "Der Zielwert muss mindestens 1 sein"
+  }
+}

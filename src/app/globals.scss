@@ -1,0 +1,122 @@
+@use "tailwindcss";
+
+// SCSS Design Tokens - Exact values from screenshot
+$dl-bg: #0a0a0a;
+$dl-surface: #1a1a1a;
+$dl-surface-2: #121212;
+$dl-border: #1f4b36;
+$dl-border-strong: #274055;
+$dl-text: #e6f0ff;
+$dl-muted: #8aa0b4;
+$dl-accent: #086244;
+$dl-accent-2: #176c4d;
+$dl-accent-weak: #043629;
+$dl-accent-border: #8446aa;
+$dl-danger: #ef4444;
+$dl-warning: #f59e0b;
+
+$radius-lg: 12px;
+$radius-md: 10px;
+$radius-sm: 8px;
+
+$spacing-xs: 0.25rem;  // 4px
+$spacing-sm: 0.5rem;   // 8px
+$spacing-md: 1rem;     // 16px
+$spacing-lg: 1.5rem;   // 24px
+$spacing-xl: 2rem;     // 32px
+$spacing-2xl: 2.5rem;  // 40px
+
+:root {
+  --dl-bg: #{$dl-bg};
+  --dl-surface: #{$dl-surface};
+  --dl-surface-2: #{$dl-surface-2};
+  --dl-border: #{$dl-border};
+  --dl-border-strong: #{$dl-border-strong};
+  --dl-text: #{$dl-text};
+  --dl-muted: #{$dl-muted};
+  --dl-accent: #{$dl-accent};
+  --dl-accent-2: #{$dl-accent-2};
+  --dl-accent-weak: #{$dl-accent-weak};
+  --dl-accent-border: #{$dl-accent-border};
+  --dl-danger: #{$dl-danger};
+  --dl-warning: #{$dl-warning};
+
+  --dl-radius-lg: #{$radius-lg};
+  --dl-radius-md: #{$radius-md};
+  --dl-radius-sm: #{$radius-sm};
+}
+
+/* Theme tokens consumed by Tailwind via arbitrary values */
+
+body {
+  background: var(--dl-bg);
+  color: var(--dl-text);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+// Utilities
+.font-mono { font-family: 'Fira Code', 'Monaco', 'Consolas', 'Courier New', monospace; }
+
+// Panels and Cards consistent with the screenshot
+.panel {
+  background: var(--dl-surface-2);
+  border: 2px solid var(--dl-border);
+  border-radius: var(--dl-radius-lg);
+  backdrop-filter: blur(8px);
+  overflow: hidden;
+}
+
+.panel-sm {
+  background: var(--dl-surface-2);
+  border: 1px solid var(--dl-border);
+  border-radius: var(--dl-radius-md);
+}
+
+.metric-card {
+  background: var(--dl-surface-2);
+  border: 1px solid var(--dl-border);
+  border-radius: var(--dl-radius-md);
+  padding: 1rem;
+}
+
+.accent { color: var(--dl-accent); }
+.accent-bg { background: var(--dl-accent-weak); }
+.accent-border { border-color: var(--dl-accent); }
+
+// Slider thumbs (kept)
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #10b981, #34d399);
+  cursor: pointer;
+  border: 2px solid var(--dl-border);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+}
+
+.slider::-moz-range-thumb {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #10b981, #34d399);
+  cursor: pointer;
+  border: 2px solid var(--dl-border);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+}
+
+// Scrollbar
+html { scroll-behavior: smooth; }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--dl-surface); }
+::-webkit-scrollbar-thumb { background: #314154; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #3d5167; }
+
+// Animations
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeInUp { animation: fadeInUp 0.6s ease-out; }
+
+
