@@ -60,7 +60,7 @@ export default function GitHubActivityStats() {
           repositories: thisYear.totalRepositoryContributions || 0,
           totalContributions: calendar.totalContributions || 0,
           currentStreak: calculateStreak(weeks),
-          longestStreak: calculateStreak(weeks), // TODO: calculate longest streak
+          longestStreak: calculateLongestStreak(weeks),
           contributionsThisYear: metrics.totalContributionsThisYear || calendar.totalContributions || 0,
           contributionsLastYear: metrics.totalContributionsLastYear || 0,
           averagePerWeek: metrics.avgContributionsPerDayThisYear ? Math.round(metrics.avgContributionsPerDayThisYear * 7) : Math.floor(calendar.totalContributions / 52),
@@ -71,6 +71,7 @@ export default function GitHubActivityStats() {
         setStats(activityStats)
         await fetchDevLogDates()
       }
+
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to fetch activity stats')
     } finally {
@@ -139,6 +140,57 @@ export default function GitHubActivityStats() {
     
     return streak
   }
+
+  const calculateLongestStreak = (weeks: GitHubWeek[]) => {
+    if (!weeks || weeks.length === 0) return 0
+
+    let longestStreak = 0
+    let currentStreak = 0
+
+    // Create a map of dates to contribution counts for quick lookup
+    const contributionsByDate = new Map<string, number>()
+    weeks.forEach((week: GitHubWeek) => {
+      week.contributionDays.forEach((day: GitHubContributionDay) => {
+        contributionsByDate.set(day.date, day.contributionCount)
+      })
+    })
+
+    const sortedDates = Array.from(contributionsByDate.keys()).sort()
+
+    let prevDate : Date | null = null
+
+    for (const dateStr of sortedDates) {
+      const count = contributionsByDate.get(dateStr) || 0
+      const currentDate = new Date(dateStr)
+
+      // count only dates with contributions
+      if (count > 0) {
+        if (prevDate) {
+          const diffInDays = (currentDate.getTime() - prevDate.getTime()) / (1000 * 60 * 60 * 24)
+
+          // if the days are after each other -> raise counter
+          if (diffInDays === 1) {
+            currentStreak++
+          } else {
+            // break in the streak -> start over on 1
+            currentStreak = 1
+          }
+        } else {
+          // first counting day
+          currentStreak = 1
+        }
+
+        prevDate = currentDate
+        longestStreak = Math.max(longestStreak, currentStreak)
+      } else {
+        // no contributions -> break streak
+        currentStreak = 0
+        prevDate = null
+      }
+    }
+
+    return longestStreak
+}
 
   const getMostActiveDayFromWeeks = (weeks: GitHubWeek[]) => {
     const dayCounts = [0, 0, 0, 0, 0, 0, 0]
