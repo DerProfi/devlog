@@ -41,7 +41,12 @@ fetch public contribution data.
 3. **Leave all scopes unchecked** — no permissions are required for public data.
 4. Copy the token (starts with `ghp_...`).
 
-## 4. Environment variables
+## 4. Ollama for AI-related features
+Refer to the [Ollama quickstart guide](https://docs.ollama.com/quickstart) to set up Ollama on your local machine.
+Ollama runs by default on `http://localhost:11434` without authentication.
+You can list ollama cli commands with `ollama --help`.
+
+## 5. Environment variables
 
 Copy the template and fill in the values you gathered above:
 
@@ -58,7 +63,7 @@ openssl rand -base64 32
 See [`.env.example`](./.env.example) for the full list of variables and what
 each one is for. **Never commit `.env.local`** — it is git-ignored.
 
-## 5. Run it
+## 6. Run it
 
 ```bash
 npm install
