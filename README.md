@@ -46,7 +46,7 @@ OAuth app.
 npm install
 
 # 2. Configure environment
-cp .env.example .env.local
+npm run setup:environment
 # then fill in the values (see SETUP.md)
 
 # 3. Run the dev server
