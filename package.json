@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "setup:environment": "shx cp .env.example .env.local"
   },
   "dependencies": {
     "@supabase/auth-helpers-nextjs": "^0.10.0",
