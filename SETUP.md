@@ -46,7 +46,7 @@ fetch public contribution data.
 Copy the template and fill in the values you gathered above:
 
 ```bash
-cp .env.example .env.local
+npm run setup:environment
 ```
 
 Generate a strong `NEXTAUTH_SECRET`:
