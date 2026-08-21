@@ -7,6 +7,7 @@ import ContributionsChart from '@/components/ContributionsChart'
 import GitHubActivityStats from '@/components/GitHubActivityStats'
 import DevLogHistory from '@/components/DevLogHistory'
 import { DeepWorkCard } from '@/components/deep-work'
+import SummaryModal from '@/components/SummaryModal'
 
 export default function DevLogPage() {
   return (
@@ -20,6 +21,7 @@ export default function DevLogPage() {
             <DevLogForm />
           </div>
           <div className="min-w-0 space-y-8">
+            <SummaryModal />
             <DeepWorkCard />
             <DashboardStatsSummary />
             <MoodWeek />

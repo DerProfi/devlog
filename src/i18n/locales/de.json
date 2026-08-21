@@ -422,6 +422,28 @@
       "setsCompleted": "{count} Set(s) abgeschlossen"
     }
   },
+  "summary": {
+    "openButton": "Fortschrittsanalyse erstellen",
+    "openDescription": "Ziele und erledigte To-dos mit KI auswerten.",
+    "title": "Fortschrittsanalyse",
+    "description": "Erhalte eine Einschätzung pro Ziel und konkrete Vorschläge für die nächste Periode.",
+    "periodLabel": "Zeitraum",
+    "periods": {
+      "week": "Letzte 7 Tage",
+      "month": "Dieser Monat",
+      "custom": "Eigener Zeitraum"
+    },
+    "outputLanguage": "Ausgabesprache",
+    "startDate": "Von",
+    "endDate": "Bis",
+    "generate": "Analyse erstellen",
+    "regenerate": "Erneut erstellen",
+    "focusSuggestions": "Fokus für die nächste Periode",
+    "invalidPeriod": "Bitte wähle einen gültigen Zeitraum.",
+    "generateError": "Die Analyse konnte nicht erstellt werden.",
+    "goalFallback": "Ziel",
+    "close": "Schließen"
+  },
   "privacy": {
     "title": "Datenschutzerklärung",
     "backToHome": "← Zurück zur Startseite",
