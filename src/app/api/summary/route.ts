@@ -168,10 +168,10 @@ export async function POST(request: NextRequest) {
     try {
       result = parseModelJson(modelResponse.response)
     } catch {
-      return NextResponse.json({ success: false, error: 'The summary provider returned invalid JSON.', prompt, modelResponse }, { status: 502 })
+      return NextResponse.json({ success: false, error: 'The summary provider returned invalid JSON.' }, { status: 502 })
     }
     if (!isSummaryResponse(result, new Set(summaryData.goals.map(({ goal }) => goal.id)))) {
-      return NextResponse.json({ success: false, error: 'The summary provider returned an invalid summary structure.', prompt, modelResponse}, { status: 502 })
+      return NextResponse.json({ success: false, error: 'The summary provider returned an invalid summary structure.' }, { status: 502 })
     }
 
     return NextResponse.json({
@@ -180,8 +180,6 @@ export async function POST(request: NextRequest) {
         period,
         goalAssessments: result.goalAssessments,
         goals: summaryData.goals.map(({ goal }) => ({ id: goal.id, name: goal.name })),
-        prompt,
-        modelResponse
       },
     })
   } catch (error) {
