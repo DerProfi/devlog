@@ -422,6 +422,28 @@
       "setsCompleted": "{count} set(s) completed"
     }
   },
+  "summary": {
+    "openButton": "Generate progress summary",
+    "openDescription": "Review goals and completed to-dos with AI.",
+    "title": "Progress summary",
+    "description": "Get an assessment for each goal and focused suggestions for the next period.",
+    "periodLabel": "Period",
+    "periods": {
+      "week": "Last 7 days",
+      "month": "This month",
+      "custom": "Custom period"
+    },
+    "outputLanguage": "Output language",
+    "startDate": "From",
+    "endDate": "To",
+    "generate": "Generate summary",
+    "regenerate": "Regenerate",
+    "focusSuggestions": "Focus for the next period",
+    "invalidPeriod": "Please choose a valid period.",
+    "generateError": "The summary could not be generated.",
+    "goalFallback": "Goal",
+    "close": "Close"
+  },
   "privacy": {
     "title": "Privacy Policy",
     "backToHome": "← Back to Home",

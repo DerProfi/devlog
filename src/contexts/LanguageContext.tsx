@@ -2,8 +2,9 @@
 
 import { createContext, useContext, useEffect, useState, ReactNode } from 'react'
 import { NextIntlClientProvider } from 'next-intl'
+import {LOCALES} from "@/lib/locales";
 
-type Locale = 'de' | 'en'
+export type Locale = (typeof LOCALES)[number]
 
 interface LanguageContextType {
   locale: Locale
